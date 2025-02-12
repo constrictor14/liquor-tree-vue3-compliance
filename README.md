@@ -1,6 +1,6 @@
 # Liquor Tree
 
-A Vue tree component that allows you to present hierarchically organized data in a nice and logical manner.
+A Vue3 tree component that allows you to present hierarchically organized data in a nice and logical manner.
 
 [documentation](https://amsik.github.io/liquor-tree/) | [demos](https://amsik.github.io/liquor-tree/#Examples)
 
@@ -20,13 +20,13 @@ A Vue tree component that allows you to present hierarchically organized data in
 **Npm:**
 
 ```shell
-$ npm install liquor-tree
+$ npm install liquor-tree-vue3-compliance
 ```
 
 **Yarn:**
 
 ```shell
-$ yarn add liquor-tree
+$ yarn add liquor-tree-vue3-compliance
 ```
 
 ## Live Playground
@@ -39,14 +39,14 @@ To run that demo on your own computer:
 * `npm run storybook` 
 * Visit `http://localhost:9001/`
 
-There are a lot of examples for you. All sources of stories are located in `liquor-tree/docs/storybook/stories`.
+There are a lot of examples for you. All sources of stories are located in `liquor-tree-vue3-compliance/docs/storybook/stories`.
 
 ## Usage
 
 ```html
   <!-- Vue Component -->
   <template>
-    <tree
+    <liquor-tree
         :data="items"
         :options="options"
         ref="tree"
@@ -55,7 +55,7 @@ There are a lot of examples for you. All sources of stories are located in `liqu
 
   <script>
     import Vue from 'Vue'
-    import LiquorTree from 'liquor-tree'
+    import LiquorTree from 'liquor-tree-vue3-compliance'
 
     Vue.use(LiquorTree)
 
